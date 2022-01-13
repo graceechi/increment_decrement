@@ -1,0 +1,37 @@
+#plus {
+    color: green;
+}
+
+#minus{
+    color: rgb(236, 10, 104);
+}
+
+#reset {
+    color: rgb(119, 205, 231);
+}
+ body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background: url(flower.jpeg);
+     background-repeat: none;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ .wrap{
+     text-align: center;
+     background-color: rgb(187, 121, 167);
+     padding: 30px;
+     border-radius: 30px;
+    
+ }
+
+ .wrap h3 {
+     color: rgb(243, 243, 247);
+     font-family:'Courier New', Courier, monospace;
+     font-size: 1.5rem;
+     text-shadow: 1px 1px 2px black;
+ }
